@@ -1,0 +1,86 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 10.1.8
+	Build                                   = 10200331-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = linux
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       10
+	No. of Sites                            =      681
+	Data File                               = 'cox2.meg'
+	Settings File                           = 'parameters/infer_ML_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/infer_ML_nucleotide.mao -d cox2.meg -o output/cox2/cox2_ML
+
+[Analysis Settings]
+
+	Analysis                                = Phylogeny Reconstruction
+	Statistical Method                      = Maximum Likelihood
+	Test of Phylogeny                       = Bootstrap method
+	No. of Bootstrap Replications           = 500
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = General Time Reversible model
+	Rates among Sites                       = Gamma Distributed With Invariant Sites (G+I)
+	No of Discrete Gamma Categories         = 5
+	Gaps/Missing Data Treatment             = Complete deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	ML Heuristic Method                     = Nearest-Neighbor-Interchange (NNI)
+	Initial Tree for ML                     = Make initial tree automatically (Default - NJ/BioNJ)
+	Branch Swap Filter                      = None
+	Number of Threads                       = 6
+	Genetic Code Table                      = Not Applicable
+	Genetic Code                            = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = True
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+
+[Analysis Statistics]
+
+	Start Time                              = 09/21/2020 01:27:39 PM
+	End Time                                = 09/21/2020 01:34:14 PM
+	Execution Time                          =  394.968 (seconds)
+	Max Heap Memory Used                    = 15.316 (MB)
+	Sum of branch lengths                   =    4.598
+	Model                                   = General Time Reversible model (+G+I)
+	Num of params                           =       27
+	Num of rates                            =        5
+	AICc                                    = 7283.199
+	BIC                                     = 7467.282
+	LnL                                     = -3614.488
+	Invar                                   =    0.310
+	Gamma                                   =    0.566
+	Ts/Tv                                   =    4.198
+	r(A->T)                                 = 0.0495009159357939
+	r(A->C)                                 = 0.0325915490428194
+	r(A->G)                                 = 0.0665247747532173
+	r(T->A)                                 = 0.0588890206822375
+	r(T->C)                                 = 0.331495003037828
+	r(T->G)                                 = 0
+	r(C->A)                                 = 0.0341938705112195
+	r(C->T)                                 = 0.292347341756624
+	r(C->G)                                 = 0.000127197898889229
+	r(G->A)                                 = 0.134085962745044
+	r(G->T)                                 = 0
+	r(G->C)                                 = 0.000244363636327604

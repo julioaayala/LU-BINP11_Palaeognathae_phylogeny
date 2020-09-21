@@ -1,0 +1,3 @@
+((((Anomalopteryx_didiformis,Emeus_crassus)1.0000,((Apteryx_haastii,Casuarius_casuarius)0.3200,Dromaius_novaehollandiae)0.7060)0.3100,(Corvus_cornix,Crocodylus_niloticus)0.9320)0.2040,Rhea_americana,(Struthio_camelus,Tinamus_major)0.4200);
+((Anomalopteryx_didiformis,Emeus_crassus)1.0000,(((Apteryx_haastii,Casuarius_casuarius)0.3200,Dromaius_novaehollandiae)0.7060,(Struthio_camelus,Tinamus_major)0.4200)0.3280,((Corvus_cornix,Crocodylus_niloticus)0.9320,Rhea_americana)0.3840);
+(((Anomalopteryx_didiformis,Emeus_crassus)1.0000,((Corvus_cornix,Crocodylus_niloticus)0.9320,(Rhea_americana,(Struthio_camelus,Tinamus_major)0.4200)0.2040)0.3100)0.7060,Apteryx_haastii,(Casuarius_casuarius,Dromaius_novaehollandiae)0.4020);

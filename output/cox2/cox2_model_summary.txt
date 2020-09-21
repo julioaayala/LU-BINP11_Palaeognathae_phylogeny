@@ -1,0 +1,59 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 10.1.8
+	Build                                   = 10200331-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = linux
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       10
+	No. of Sites                            =      681
+	Data File                               = 'cox2.meg'
+	Settings File                           = 'parameters/model_sel_ml_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/model_sel_ml_nucleotide.mao -d cox2.meg -o output/cox2/cox2_model
+
+[Analysis Settings]
+
+	Analysis                                = Model Selection (ML)
+	Tree to Use                             = Automatic (Neighbor-joining tree)
+	User Tree File                          = Not Applicable
+	Statistical Method                      = Maximum Likelihood
+	Substitutions Type                      = Nucleotide
+	Gaps/Missing Data Treatment             = Complete deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	Branch Swap Filter                      = None
+	Number of Threads                       = 6
+	Genetic Code Table                      = Not Applicable
+	Genetic Code                            = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = True
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+
+[Analysis Statistics]
+
+	Start Time                              = 09/21/2020 01:38:12 PM
+	End Time                                = 09/21/2020 01:38:15 PM
+	Execution Time                          =    2.602 (seconds)
+	Max Heap Memory Used                    = 39.009 (MB)
