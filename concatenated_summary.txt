@@ -22,9 +22,9 @@
 
 	Data Type                               = nucleotide (non-coding)
 	No. of Taxa                             =       10
-	Data File                               = 'Sequences/Concatenated/concatenatedRatites.fasta'
-	Settings File                           = 'Parameters/muscle_align_nucleotide.mao'
-	Command Line                            = /usr/lib64/megax/megacc -a Parameters/muscle_align_nucleotide.mao -d Sequences/Concatenated/concatenatedRatites.fasta -o concatenated.meg
+	Data File                               = 'sequences/concatenated/concatenatedRatites.fasta'
+	Settings File                           = 'parameters/muscle_align_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/muscle_align_nucleotide.mao -d sequences/concatenated/concatenatedRatites.fasta -o concatenated.meg
 
 [Analysis Settings]
 
@@ -46,7 +46,7 @@
 
 [Analysis Statistics]
 
-	Start Time                              = 09/21/2020 12:56:04 PM
-	End Time                                = 09/21/2020 12:56:05 PM
-	Execution Time                          =    0.516 (seconds)
+	Start Time                              = 09/21/2020 02:10:23 PM
+	End Time                                = 09/21/2020 02:10:23 PM
+	Execution Time                          =    0.211 (seconds)
 	Max Heap Memory Used                    = 15.259 (MB)
