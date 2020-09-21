@@ -1,0 +1,52 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 10.1.8
+	Build                                   = 10200331-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = linux
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       10
+	Data File                               = 'Sequences/Concatenated/concatenatedRatites.fasta'
+	Settings File                           = 'Parameters/muscle_align_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a Parameters/muscle_align_nucleotide.mao -d Sequences/Concatenated/concatenatedRatites.fasta -o concatenated.meg
+
+[Analysis Settings]
+
+	Gap Penalties                           = ====================
+	Gap Open                                = -400.00
+	Gap Extend                              = 0.00
+	Memory/Iterations                       = ====================
+	Max Memory in MB                        = 2048
+	Max Iterations                          = 16
+	Advanced Options                        = ====================
+	Cluster Method (Iterations 1,2)         = UPGMA
+	Cluster Method (Other Iterations)       = UPGMA
+	Min Diag Length (Lambda)                = 24
+	datatype                                = snNucleotide
+	containsCodingNuc                       = False
+	missingBaseSymbol                       = ?
+	identicalBaseSymbol                     = .
+	gapSymbol                               = -
+
+[Analysis Statistics]
+
+	Start Time                              = 09/21/2020 12:56:04 PM
+	End Time                                = 09/21/2020 12:56:05 PM
+	Execution Time                          =    0.516 (seconds)
+	Max Heap Memory Used                    = 15.259 (MB)
