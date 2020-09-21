@@ -24,26 +24,20 @@
 	No. of Taxa                             =       10
 	No. of Sites                            =      162
 	Data File                               = 'atp8.meg'
-	Settings File                           = 'parameters/infer_NJ_nucleotide.mao'
-	Command Line                            = /usr/lib64/megax/megacc -a parameters/infer_NJ_nucleotide.mao -d atp8.meg -o output/atp8/atp8_NJ
+	Settings File                           = 'parameters/model_sel_ml_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/model_sel_ml_nucleotide.mao -d atp8.meg -o output/atp8_model
 
 [Analysis Settings]
 
-	Analysis                                = Phylogeny Reconstruction
-	Scope                                   = All Selected Taxa
-	Statistical Method                      = Neighbor-joining
-	Test of Phylogeny                       = Bootstrap method
-	No. of Bootstrap Replications           = 500
+	Analysis                                = Model Selection (ML)
+	Tree to Use                             = Automatic (Neighbor-joining tree)
+	User Tree File                          = Not Applicable
+	Statistical Method                      = Maximum Likelihood
 	Substitutions Type                      = Nucleotide
-	Model/Method                            = Kimura 2-parameter model
-	Fixed Transition/Transversion Ratio     = Not Applicable
-	Substitutions to Include                = d: Transitions + Transversions
-	Rates among Sites                       = Gamma Distributed (G)
-	Gamma Parameter                         = 2.00
-	Pattern among Lineages                  = Same (Homogeneous)
 	Gaps/Missing Data Treatment             = Complete deletion
 	Site Coverage Cutoff (%)                = Not Applicable
 	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	Branch Swap Filter                      = None
 	Number of Threads                       = 6
 	Genetic Code Table                      = Not Applicable
 	Genetic Code                            = Not Applicable
@@ -59,8 +53,7 @@
 
 [Analysis Statistics]
 
-	Start Time                              = 09/21/2020 02:16:02 PM
-	End Time                                = 09/21/2020 02:16:07 PM
-	Execution Time                          =    5.220 (seconds)
-	Max Heap Memory Used                    = 15.264 (MB)
-	Sum of branch lengths                   =    2.040
+	Start Time                              = 09/21/2020 02:49:37 PM
+	End Time                                = 09/21/2020 02:49:39 PM
+	Execution Time                          =    1.980 (seconds)
+	Max Heap Memory Used                    = 22.119 (MB)

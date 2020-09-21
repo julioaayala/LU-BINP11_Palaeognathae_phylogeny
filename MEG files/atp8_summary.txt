@@ -22,9 +22,9 @@
 
 	Data Type                               = nucleotide (non-coding)
 	No. of Taxa                             =       10
-	Data File                               = 'Sequences/ATP8/atp8_concatenated.fasta'
-	Settings File                           = 'Parameters/muscle_align_nucleotide.mao'
-	Command Line                            = /usr/lib64/megax/megacc -a Parameters/muscle_align_nucleotide.mao -d Sequences/ATP8/atp8_concatenated.fasta -o atp8.meg
+	Data File                               = 'sequences/ATP8/atp8_concatenated.fasta'
+	Settings File                           = 'parameters/muscle_align_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/muscle_align_nucleotide.mao -d sequences/ATP8/atp8_concatenated.fasta -o atp8.meg
 
 [Analysis Settings]
 
@@ -46,7 +46,7 @@
 
 [Analysis Statistics]
 
-	Start Time                              = 09/21/2020 12:55:22 PM
-	End Time                                = 09/21/2020 12:55:22 PM
+	Start Time                              = 09/21/2020 02:15:26 PM
+	End Time                                = 09/21/2020 02:15:26 PM
 	Execution Time                          =    0.020 (seconds)
 	Max Heap Memory Used                    = 15.259 (MB)
