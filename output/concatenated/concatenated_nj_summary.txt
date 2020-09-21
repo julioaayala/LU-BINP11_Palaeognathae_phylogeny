@@ -1,0 +1,66 @@
+;   MEGA-CC (Molecular Evolutionary Genetics Analysis Compute Core)
+;
+;   Suggested Citation for MEGA-CC 10:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+;
+;   Kumar S, Stecher G, Peterson D, and Tamura K
+;   MEGA-CC: Computing Core of Molecular Evolutionary Genetics
+;   Analysis Program for Automated and Iterative Data Analysis.
+;   Bioinformatics (2012) 28:2685-2686 (Epub 2012 Aug 24)
+
+[Application Info]
+
+	Version                                 = 10.1.8
+	Build                                   = 10200331-x86_64
+	User Interface                          = CommandLine
+	Operating System                        = linux
+
+[General Info]
+
+	Data Type                               = nucleotide (non-coding)
+	No. of Taxa                             =       10
+	No. of Sites                            =      843
+	Data File                               = 'concatenated.meg'
+	Settings File                           = 'parameters/infer_NJ_nucleotide.mao'
+	Command Line                            = /usr/lib64/megax/megacc -a parameters/infer_NJ_nucleotide.mao -d concatenated.meg -o output/concatenated/concatenated_nj
+
+[Analysis Settings]
+
+	Analysis                                = Phylogeny Reconstruction
+	Scope                                   = All Selected Taxa
+	Statistical Method                      = Neighbor-joining
+	Test of Phylogeny                       = Bootstrap method
+	No. of Bootstrap Replications           = 500
+	Substitutions Type                      = Nucleotide
+	Model/Method                            = Kimura 2-parameter model
+	Fixed Transition/Transversion Ratio     = Not Applicable
+	Substitutions to Include                = d: Transitions + Transversions
+	Rates among Sites                       = Gamma Distributed (G)
+	Gamma Parameter                         = 2.00
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Complete deletion
+	Site Coverage Cutoff (%)                = Not Applicable
+	Select Codon Positions                  = 1st, 2nd, 3rd, Non-Coding
+	Number of Threads                       = 6
+	Genetic Code Table                      = Not Applicable
+	Genetic Code                            = Not Applicable
+	Has Time Limit                          = False
+	Maximum Execution Time                  = -1
+	datatype                                = snNucleotide
+	containsCodingNuc                       = True
+	MissingBaseSymbol                       = ?
+	IdenticalBaseSymbol                     = .
+	GapSymbol                               = -
+	Labelled Sites                          = All Sites
+	Labels to Include                       = 
+
+[Analysis Statistics]
+
+	Start Time                              = 09/21/2020 02:13:28 PM
+	End Time                                = 09/21/2020 02:13:33 PM
+	Execution Time                          =    5.232 (seconds)
+	Max Heap Memory Used                    = 15.264 (MB)
+	Sum of branch lengths                   =    1.352
